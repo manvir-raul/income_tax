@@ -1,0 +1,83 @@
+p.para1 {
+    text-align: center;
+    color: red;
+  }
+
+#hi {
+    text-align: right;
+    color:blue;
+  }
+
+h1 {
+    text-align: left;
+    color:green; 
+}
+
+.para2  
+{text-align: center;
+color:yellow;}
+
+input {
+    margin-bottom: 2px;
+}
+
+::placeholder{
+    border: 1px solid;
+    margin-right: 50%;
+}
+
+.pl-login-box {
+    border: 1px solid #0c4678;
+    color: #0c4678;
+    font-weight: normal;
+    padding: 0px 0px;
+    display: inline-block;
+    background: #f1f1f1;
+    width: 185px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#customers {
+    table-layout: fixed;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+  
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customersInput th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#customersInput th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color:black;
+}
+
+
+
+#customersInput {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    table-layout: fixed;
+}
